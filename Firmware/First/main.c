@@ -8,9 +8,9 @@ long long int g = 0;
 
 int main(void)
 {
-    g = 10;
     for(;;) {
         i++;
+        g += 2;
     }
 	return 0;
 }
